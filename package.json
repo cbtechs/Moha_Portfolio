@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  },
+  "name": "moha_portfolio",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbtechs/Moha_Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbtechs/Moha_Portfolio/issues"
+  },
+  "homepage": "https://github.com/cbtechs/Moha_Portfolio#readme"
+}
