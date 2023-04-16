@@ -25,7 +25,7 @@ body {
 }
 
 
-
+/* Header & Hero */
 header,
 .hero {
   background-color: #fff;
@@ -40,9 +40,7 @@ li {
   list-style-type: none;
 }
 
-h1 {
-  line-height: 2.4rem;
-}
+
 
 .menu {
   display: flex;
@@ -67,12 +65,13 @@ h1 {
 h1 {
   font-family: 'Poppins';
   font-style: normal;
-  width: 327px;
-  height: 150px;
+  width: 32.7rem;
+  height: 15rem;
   font-size: 4rem;
   font-weight: 700;
   line-height: 5.2rem;
   height: 14.7rem;
+  color: #172B4D;
 }
 
 .burger {
@@ -101,10 +100,25 @@ h1 {
 }
 
 
+.info {
+  margin-top: -2rem;
+  width: 32.7rem;
+  height: 14.6rem;
+  font-size: 1.6rem;
+}
+
 .social-media {
   width: 22.5rem;
   height: 3.4rem;
   padding-top: 1rem; 
+}
+
+.connect {
+font-size: 1.6rem;  
+margin-top: -3rem;
+color: #6070ff;
+width: 11.7rem;
+height: 2.4rem;
 }
 
 .social-media li {
@@ -113,19 +127,4 @@ h1 {
   justify-content: center;
   padding-left: 0;
   
-}
-
-.info {
-  margin-top: -2rem;
-  width: 32.7rem;
-  height: 14.6rem;
-  font-size: 1.6rem;
-}
-
-.connect {
-font-size: 1.6rem;  
-margin-top: -4rem;
-color: #6070ff;
-width: 11.7rem;
-height: 2.4rem;
 }
