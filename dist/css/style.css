@@ -129,49 +129,54 @@ height: 2.4rem;
   grid-template-columns: 1fr;
   justify-content: flex-start;
   align-items: center;
-  gap: 80px;
-  padding: 120px 0;
+  gap: 8rem;
+  padding: 12rem 0;
   background: #e5e5e5;
 }
 
-.grid-container {
-  display: flex;
-  flex-direction: column;
-  margin: 0 24px;
-  max-width: 100%;
-  gap: 24px;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  width: 349px;
-  background-color: #ffff;
-}
-
-.card-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 5%;
-  padding: 0 10px;
-  background-color: #ffff;
-}
-
+.grid-container,
+.card-container,
 .text-container {
   display: flex;
   flex-direction: column;
+}
+
+.grid-container,
+.card-container,
+.text-container,
+.card-title,
+.frame-two {
+  background-color: #ffff;
+}
+
+.grid-container {
+  margin: 0 2.4rem;
+  max-width: 100%;
+  gap: 2.4rem;
+  border: 0.1rem solid #dfe1e6;
+  border-radius: 1.6rem;
+  width: 34.9rem;
+}
+
+.card-container {
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+  padding: 0 1rem;
+}
+
+.text-container {
   justify-content: center;
   align-items: flex-start;
-  gap: 12px;
-  background-color: #ffff;
+  gap: 1.2rem;
 }
 
 .card-title {
   font-family: 'Poppins', sans-serif;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
   font-weight: 700;
   color: #172b4d;
-  background-color: #ffff;
 }
 
 .frame-two {
@@ -179,9 +184,16 @@ height: 2.4rem;
   flex-direction: row;
   align-items: center;
   padding: 0;
-  gap: 12px;
-  width: 236px;
-  height: 32px;
+  gap: 1.2rem;
+  width: 23.6rem;
+  height: 3.2rem;
+}
+
+.client,
+.card-description,
+.role,
+.small-btn {
+  color: #344563;
   background-color: #ffff;
 }
 
@@ -189,43 +201,38 @@ height: 2.4rem;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0;
-  width: 55px;
-  height: 32px;
+  padding: 0.8rem 0;
+  width: 5.5rem;
+  height: 3.2rem;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #344563;
-  background-color: #ffff;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
 }
 
 .role {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0;
+  padding: 0.8rem 0;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
   color: #7a869a;
-  background-color: #ffff;
 }
 
 .card-description {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  width: 295px;
-  height: 76px;
-  margin-bottom: -25px;
-  color: #344563;
-  background-color: #ffff;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  width: 29.5rem;
+  height: 7.6rem;
+  margin-bottom: -2.5rem;
 }
 
 .small-btn {
@@ -233,47 +240,46 @@ height: 2.4rem;
   flex-direction: row;
   align-items: center;
   padding: 0;
-  gap: 8px;
-  margin-bottom: 10px;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
   list-style: none;
-  width: 214px;
-  height: 24px;
-  background-color: #ffff;
+  width: 21.4rem;
+  height: 2.4rem;
 }
 
 .tag-description {
   align-items: center;
-  padding: 4px 12px;
-  height: 24px;
+  padding: 0.4rem 1.2rem;
+  height: 2.4rem;
   background: #ebebff;
-  border-radius: 8px;
+  border-radius: 0.8rem;
   flex: none;
   order: 0;
   flex-grow: 0;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
   color: #6070ff;
   letter-spacing: 0.03em;
 }
 
 .project-btn {
-  height: 48px;
-  width: 126px;
+  height: 4.8rem;
+  width: 12.6rem;
   left: 0;
-  top: 12px;
+  top: 1.2rem;
   border-radius: 8px;
-  border: 1px solid #6070ff;
-  padding: 12px;
+  border: 0.1rem solid #6070ff;
+  padding: 1.2rem;
   background: #fff;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
   color: #396df2;
   cursor: pointer;
 }
